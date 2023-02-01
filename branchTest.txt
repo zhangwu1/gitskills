@@ -5,3 +5,7 @@
 创建完分支后可以在新创建的分支上修改文件，修改完成后提交
 切换到master分支上：git checkout master
 提交完成后合并分支：git merge dev
+
+删除没有用的分支：git branch -d dev
+
+我记得前面通过git checkout 命令也实现过将暂存区的文件拿到工作区“git checkout -- filename”,这与切换分支的命令存在重合。容易混淆，现也可以通过git switch -c dev 命令实现分支的切换。
