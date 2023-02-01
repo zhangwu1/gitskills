@@ -1,0 +1,7 @@
+创建分支：git branch dev
+切换分支：git checkout dev
+以上两条命令也可以通过：git checkout -b dev 替换
+
+创建完分支后可以在新创建的分支上修改文件，修改完成后提交
+切换到master分支上：git checkout master
+提交完成后合并分支：git merge dev
